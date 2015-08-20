@@ -21,6 +21,6 @@
     "test-single-run": "karma start karma.conf.js  --single-run",
     "start": "http-server"
   },
-  "author": "EPiServer AB",
+  "author": "igudkova",
   "license": "ISC"
 }
