@@ -1,0 +1,6 @@
+<ul class="list-group">
+    <li class="list-group-item" data-ng-repeat="category in categories" data-ui-sref-active="active">
+        <span class="badge">{{category.count}}</span>
+        <a data-ui-sref=".category({id: category.id})">{{category.name}}</a>
+    </li>
+</ul>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" data-ng-app="sampleApp">
+<head>
+    <title>Product catalog</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Product catalog</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2">
+                <div data-ui-view="list"></div>
+            </div>
+            <div class="col-md-10">
+                <div data-ui-view="sublist"></div>
+            </div>
+            <div class="col-md-12" data-ui-view></div>            
+        </div>
+    </div>    
+</body>
+
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>  
+<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script src="app/app.module.js"></script>
+<script src="app/app.routes.js"></script>  
+<script src="app/common/directives/contenteditableDirective.js"></script>        
+<script src="app/common/filters/unsafeFilter.js"></script>  
+<script src="app/common/services/dataService.js"></script>     
+<script src="app/partials/catalog/catalog.js"></script>   
+<script src="app/partials/category/category.js"></script>  
+<script src="app/partials/product/product.js"></script>   
+    
+</body>
+</html>

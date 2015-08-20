@@ -1,0 +1,7 @@
+div[contenteditable]:hover{
+    background-color: #f5f5f5;
+}
+
+.css-form div.ng-invalid {
+    border: 1px solid #faa5ab;
+}
